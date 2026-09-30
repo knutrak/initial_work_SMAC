@@ -1,0 +1,19 @@
+[project]
+name = "starcraft"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.10.9",
+    "pandas>=2.3.3",
+    "pysindy>=2.1.0",
+    "scipy>=1.15.3",
+    "smac",
+]
+
+[tool.uv.sources]
+smac = { git = "https://github.com/oxwhirl/smac.git" }
+
+
